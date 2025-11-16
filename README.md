@@ -77,7 +77,7 @@ Digunakan untuk mencatat pengiriman DO berdasarkan input pengguna.
 - Stok bahan ajar: **Selesai**
 - Tracking DO: **Selesai**
 - Histori transaksi: **Placeholder (maintenance mode)**
-- Vue.js sudah diterapkan pada seluruh alur inti.
+- Vue.js sudah diterapkan pada script dummy.
 
 ---
 
