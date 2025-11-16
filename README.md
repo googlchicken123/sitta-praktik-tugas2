@@ -25,22 +25,6 @@ Pada tugas ini mahasiswa diharapkan mampu:
 
 ---
 
-## Struktur Project
-/sitta-praktik-tugas2/
-├── index.html → Halaman login
-├── dashboard.html → Halaman utama
-├── stok.html → Stok Bahan Ajar (Vue.js)
-├── tracking.html → Tracking DO (Vue.js)
-├── histori.html → Placeholder halaman histori transaksi
-├── css/
-│ └── style.css → Styling aplikasi
-└── js/
-├── stok-app.js → Vue App untuk halaman stok
-├── tracking-app.js → Vue App untuk halaman tracking
-└── dataBahanAjar.js → Dummy data bahan ajar & paket
-
----
-
 ## 1. Halaman Stok Bahan Ajar (stok.html)
 
 Halaman ini menampilkan daftar lengkap bahan ajar menggunakan Vue.js dengan data dummy.
