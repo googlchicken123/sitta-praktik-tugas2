@@ -1,5 +1,4 @@
 # SITTA – Tugas Praktik 2 
-**Tugas 1 - Pemrograman Berbasis Web (STSI4209)**  
 **Disusun oleh:** Reza Rinaldi  
 **NIM:** 050601026  
 **UPJJ:** Surabaya  
