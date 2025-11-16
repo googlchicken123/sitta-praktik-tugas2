@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Histori Transaksi - SITTA UT</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <style>
+    .maintenance-wrapper {
+      width: 100%;
+      height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #29303b;
+      gap: 18px;
+    }
+
+    .maintenance-icon {
+      font-size: 70px;
+      color: #1b6dc1;
+      animation: pulse 1.6s infinite ease-in-out;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.13); opacity: 1; }
+      100% { transform: scale(1); opacity: 0.9; }
+    }
+
+    .maintenance-text {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .maintenance-subtext {
+      font-size: 15px;
+      color: #6b6b6b;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="app-header">
+    <div class="header-left">
+      <img src="img/ut.png" alt="UT Logo" class="header-logo">
+      <div class="header-title">
+        <div class="title">SITTA - Pemesanan Bahan Ajar</div>
+        <div id="greeting" class="subtitle">Minggu, 16 November 2025</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SIDEBAR + MAIN CONTENT -->
+  <div class="app-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" role="navigation" aria-label="Main navigation">
+      <ul>
+        <li class="sidebar-item"><a href="dashboard.html">Dashboard</a></li>
+        <li class="sidebar-item"><a href="stock.html">Informasi Bahan Ajar</a></li>
+        <li class="sidebar-item"><a href="tracking.html">Tracking Pengiriman</a></li>
+        <li class="sidebar-item active"><a href="histori.html">Histori Transaksi</a></li>
+        <li class="sidebar-item"><a href="#" id="logoutBtn">Keluar</a></li>
+      </ul>
+    </aside>
+
+    <!-- MAIN PAGE CONTENT -->
+    <main class="main-content">
+
+      <div class="maintenance-wrapper">
+        <i class="fa fa-cogs maintenance-icon"></i>
+
+        <div class="maintenance-text">
+          Halaman Sedang Dalam Tahap Pengembangan
+        </div>
+
+        <div class="maintenance-subtext">
+          Silakan coba kembali nanti.
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

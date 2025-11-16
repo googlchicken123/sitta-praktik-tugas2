@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Masuk ke SITTA-UT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<!-- Tambahkan class login-page agar background biru HANYA untuk halaman ini -->
+<body class="login-page">
+
+  <div class="login-container">
+
+      <!-- Logo UT SEKARANG DI DALAM LOGIN-CONTAINER -->
+      <div class="logo-top" aria-hidden="true">
+        <img src="img/ut2.png" alt="Logo UT" class="ut-logo" />
+      </div>
+
+      <h2>Masuk ke SITTA-UT</h2>
+
+      <div class="form-container">
+          <form id="loginForm">
+              <input type="email" required placeholder="Email" id="email" />
+              <input type="password" required placeholder="Password" id="password" />
+              <a href="#" id="forgetLink">Lupa Password?</a>
+              <button type="submit">Login</button>
+          </form>
+      </div>
+
+      <div class="links">
+          <a href="#" id="registerLink">Belum punya akun?</a>
+      </div>
+
+  </div>
+  
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
